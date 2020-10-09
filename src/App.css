@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+/* font-family: Inter added here below code */
+@font-face{
+    font-family: "Inter";
+    src: url("./Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*font-family:Lato added here below code */
+@font-face{
+    font-family: "Lato";
+    src: url('./Fonts/Lato/Lato-Regular.ttf');
 }
 
-.App-link {
-  color: #61dafb;
+/*font-family:Playfair added here below code */
+@font-face{
+    font-family: "Playfair Display";
+    src: url('./Fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*font-family:Overpass added here below code */
+@font-face{
+  font-family: "Overpass";
+  src:url('./Fonts/Overpass/Overpass-Regular.ttf');
+  
+}
+
+/*font-family:Poppins added here below code */
+@font-face{
+  font-family:"Poppins";
+  src:url('./Fonts/Poppins/Poppins-Regular.ttf');
+}
+
+/******************************************* Buttons *******************************************************/
+
+.editbutton{
+  color:black !important;
+  padding: 3px 30px !important;
+  text-transform: uppercase !important;
+  background-color: #00A4AD !important;
+  font-size: 11px !important;
+  transition: 0.5s !important;
+}
+
+.editbutton:hover{
+  background-color: black !important;
+  color: #00A4AD !important;
+}
+
+/*********************** Navigation bar Code below utill the next comment meet ******************************/
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    padding: 0 0 0 20px;
+    font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #1E1C61;
+
   }
-  to {
-    transform: rotate(360deg);
+  
+  .logo_items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
   }
-}
+  .logo_items img{
+    width: 64px;
+    height: 64px;
+  }
+  .logo_items a{
+    padding: 0 20px;
+    border-right:1px solid black;
+    font-size: 1.2rem;
+    margin: 0 0 0 20px;
+  }
+  .logo_items a:last-child{
+    border-right:none;
+  }
+  .profile_nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    height: 100%;
+    background: #00A4AD 30%;
+    border-bottom-left-radius: 30px;
+    font-family: Playfair Display;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #19193E;
+
+  }
+  .profile_nav p{
+    padding: 0 30px 0 0;
+  }
+  .profile_nav img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+
+  /************************************** doctors profile ***************************************************/
+
+  .doctornameandcity{
+    font-family: Lato;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 10px;
+letter-spacing: 0.02em;
+text-align: center;
+
+  }
+
+  /************************************ doctors title portion **********************************************/
+
+  .doctordetailstitle{
+    background: #C8C8C8;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .detailsTitle{
+    background-color: #FFE5C6;
+    padding: 20px;
+    width: 300px;
+
+  }
