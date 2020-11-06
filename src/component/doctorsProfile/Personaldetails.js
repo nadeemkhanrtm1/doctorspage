@@ -15,13 +15,13 @@ const Personaldetails = () => {
                 <input type="text" className="form-control" placeholder="Enter UG" id="degree"/>
               </div>
               <div >
-                <img src={Hand} alt="..."/>
+                <img src={Hand} alt="..." className="hand"/>
               </div>
               <div className="col-3">
                 <input type="text" className="form-control" placeholder="Enter PG"/>
               </div>
               <div>
-                <img src={Hand} alt="..."/>
+                <img src={Hand} alt="..." className="hand"/>
               </div>
               {/* Specialty  */}
               <div className="col-12 text-center mt-4">
@@ -37,7 +37,7 @@ const Personaldetails = () => {
                       id="specialty"/>
                   </div>
                   <div >
-                    <img src={Hand} alt="..."/>
+                    <img src={Hand} alt="..." className="hand"/>
                   </div>
                   <div className="col-2">
                     <label for="experience">Experience:<br/>(in years)</label>
@@ -46,14 +46,14 @@ const Personaldetails = () => {
                     <input type="text" className="form-control"/>
                   </div>
                   <div>
-                    <img src={Hand} alt="..."/>
+                    <img src={Hand} alt="..." className="hand"/>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-12 text-center mt-5"> 
-              <h1>Registration details:<img src={Hand} alt="..."/></h1>
+              <h1>Registration details:<img src={Hand} alt="..." className="handwithh1"/></h1>
           </div>
           <div className="col-12 text-center">
               <div className="row my-3">
@@ -82,7 +82,7 @@ const Personaldetails = () => {
               </div>
           </div>
           <div className="col-12 text-center">
-              <button className="btn btn-primary updatebutton">Update</button>
+              <button className="btn btn-primary updatebutton">UPDATE</button>
           </div>
         </div>
       </div>

@@ -39,7 +39,8 @@ const Clinicdetails = () => {
     fontSize: '12px',
     fontStyle: 'normal',
     fontWeight: '700',
-    color: '#4E4957'
+    color: '#4E4957',
+    textDecoration:'underline'
   }
   return (
     <div className="container-fluid mt-5" style={container}>
@@ -77,7 +78,7 @@ const Clinicdetails = () => {
           </div>
         </div>
         <div className="col-12 text-center my-3">
-            <button className="btn btn-primary">ADD CLINIC</button>
+            <button className="btn btn-primary addclinic">+ ADD CLINIC</button>
         </div>
       </div>
     </div>
