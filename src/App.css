@@ -495,7 +495,8 @@ label {
 }
 
 .marginTop {
-  border-top: 1px solid #d1cfcf;}
+  border-top: 1px solid #d1cfcf;
+}
 
 .time {
   font-family: Lato;
@@ -507,7 +508,7 @@ label {
   text-align: center;
 }
 
-.time h6{
+.time h6 {
   padding: 6px 0 !important;
 }
 
@@ -515,8 +516,25 @@ label {
   font-family: Lato;
   font-size: 15px;
   font-weight: 500;
-  color: #243D6F;
+  color: #243d6f;
   background-color: rgba(238, 165, 124, 0.15);
   border-left: 4px solid #eea57c;
   padding: 6px 0 !important;
+}
+
+.Consultations {
+  font-family: Playfair Display;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  color: #1e1c61;
+}
+
+.ConsultationsName {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #4E4957;
+
 }
