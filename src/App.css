@@ -535,6 +535,82 @@ label {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  color: #4E4957;
+  color: #4e4957;
+}
 
+/******************************************* Your Schedule *************************************************/
+
+.YourScheduleContainer {
+  max-width: 1800px !important;
+  box-shadow: 0px 3.8164px 3.8164px rgba(0, 0, 0, 0.25);
+  border-radius: 10px !important;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  color: #909090;
+}
+
+.DailyWeekMonth {
+  color: #909090;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.DailyWeekMonth:hover {
+  text-decoration: none;
+  color: #909090;
+}
+
+.arrow {
+  width: 8px;
+  height: 16px;
+  position: relative;
+  top: -5px;
+}
+
+.monthyear {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.dailystatus {
+  border-radius: 10px !important;
+  box-shadow: 0px 3.8164px 3.8164px rgba(0, 0, 0, 0.25);
+}
+
+.datemonthyearDayArr {
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.datemonthyearDayArrr{
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  visibility: hidden;
+}
+
+.timeSize{
+  font-size: 19px;
+}
+
+.divforDailyWeekCallWithPatientABC{
+  border-top: 1px solid #d1cfcf;
+  height: 28px;
+}
+
+.dailyWeekVideoCallIwthPatientABC{
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 500;
+  color: #243d6f;
+  background-color: rgba(238, 165, 124, 0.15);
+  border-left: 4px solid #eea57c;
+  padding: 6px 0 !important;
+  line-height: 28px;
+  height: 100%;
 }

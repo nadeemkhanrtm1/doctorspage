@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/profile" component={Profile}/>
-          <Route exact path="/schedule" component={YourSchedule}/>
+          <Route path="/schedule" component={YourSchedule}/>
         </Switch>
       </BrowserRouter>
     </React.Fragment>
